@@ -145,6 +145,7 @@ function resetQuiz() {
 function quizRestart() {
   currentQuestionIndex = 0;
   correctAnswers= 0;
+  renderChoices();
 }
 
 //render question header
