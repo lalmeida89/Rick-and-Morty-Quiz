@@ -176,7 +176,7 @@ function renderQuestionFeedback(boolean) {
   let feedback = $('.modal-content');
   if (boolean === true){
     feedback.find('h2').text('RIGHT!!!!');
-    feedback.find('img').attr('src', 'http://mrwgifs.com/wp-content/uploads/2016/03/I-Like-What-You-Got-Good-Job-On-Rick-and-Morty-Get-Schwifty.gif');
+    feedback.find('img').attr('src', 'https://mrwgifs.com/wp-content/uploads/2016/03/I-Like-What-You-Got-Good-Job-On-Rick-and-Morty-Get-Schwifty.gif');
   } else if (boolean === false){
     feedback.find('h2').text('WRONG!!!!');
     feedback.find('img').attr('src', 'https://68.media.tumblr.com/5ebc4f38402eef780a4f0912917fbc06/tumblr_nu6tag0iTG1ucfegyo1_500.gif');
