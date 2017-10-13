@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Rick and Morty Interdimensional Cable Quiz!!</title>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  </head>
+  
+  <body>
+    <header>
+      <img src="http://vignette.wikia.nocookie.net/fictionalcrossover/images/c/c8/Rick_and_Morty_logo.png/revision/latest/scale-to-width-down/640?cb=20150515125959" width="250px" id="rmlogo">
+      <h3 id='smallHeader'>Interdimensional Cable Quiz!!!</h3>
+    </header>
+    
+    <div class='question-wrapper'>
+      <div class='quiz-start '>
+        <button id='start-quiz-btn'>SHOW ME WHAT YOU GOT!!</button>
+      </div>
+      
+      <section id='my-quiz' class='hidden'>
+        <h2 id='js-question-number'></h2>
+        <h2 id='js-question-text'></h2>
+        <form id='question-box'>
+          <ul id='choices'>
+            <!-- <li><input type='radio' name='answerChoice' required> choices</li> -->
+          </ul>
+          <div id='submit-answer' class=''>
+            <button id='submit-answer-btn'>LETS SEE WHAT YOU GOT!!</button>
+          </div>
+        </form>
+        <div class='progress'>
+          <h4 id='progression'></h4>
+        </div>
+      </section>
+      
+      <div id="myModal" class="modal hidden">
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <h2></h2>
+          <img>
+        </div>
+      </div>
+      
+      <section id='results' class='hidden'>
+        <div class='js-results-text'></div>
+        <button class='quiz-restart-btn'>SHOW ME WHAT YOU GOT!! AGAIN!!</button>
+      </section>
+      
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
