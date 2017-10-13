@@ -113,4 +113,9 @@ li {
   .question-wrapper {
     width: 100%;
   }
-}
+
+  .modal {
+    position: absolute; 
+    z-index: 1; 
+    padding-top: 20px; 
+    margin: 40vw auto;
